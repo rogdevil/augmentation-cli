@@ -163,14 +163,19 @@ The tool creates a timestamped directory alongside your original dataset:
 
 ```
 your_dataset/
-├── original_images/
-│   ├── class1/
-│   └── class2/
-└── augmented_dataset_20240619_143022/
+  ├── class1/
+  └── class2/
+augmented_20240619_143022/
+  ├── class1/
     ├── original_image1.jpg
     ├── aug_1_rotation_brightness_image1.jpg
     ├── aug_2_flip_horizontal_contrast_image1.jpg
     └── aug_3_noise_blur_image1.jpg
+  ├── class2/
+    ├── original_image2.jpg
+    ├── aug_1_rotation_brightness_image2.jpg
+    ├── aug_2_flip_horizontal_contrast_image2.jpg
+    └── aug_3_noise_blur_image2.jpg
 ```
 
 **Naming Convention:**
