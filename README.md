@@ -27,7 +27,7 @@ A powerful and user-friendly command-line interface for augmenting image dataset
 
 ### Installation
 
-1. **Clone or download** the `augment_data.py` script
+1. **Clone or download** the `main.py` script
 
 2. **Create a virtual environment**:
    ```bash
@@ -64,7 +64,7 @@ augmentation-cli\Scripts\activate     # Windows
 cd /path/to/script
 
 # Run the augmentation tool
-python augment_data.py /path/to/your/dataset
+python main.py /path/to/your/dataset
 ```
 
 ## 📖 Detailed Usage
@@ -72,7 +72,7 @@ python augment_data.py /path/to/your/dataset
 ### Command Line Arguments
 
 ```bash
-python augment_data.py [dataset_path] [options]
+python main.py [dataset_path] [options]
 ```
 
 **Arguments:**
@@ -92,13 +92,13 @@ source augmentation-cli/bin/activate  # macOS/Linux
 augmentation-cli\Scripts\activate     # Windows
 
 # Basic augmentation
-python augment_data.py ./my_images
+python main.py ./my_images
 
 # Augment dataset in current directory
-python augment_data.py .
+python main.py .
 
 # Get help
-python augment_data.py --help
+python main.py --help
 
 # Deactivate virtual environment when done
 deactivate
